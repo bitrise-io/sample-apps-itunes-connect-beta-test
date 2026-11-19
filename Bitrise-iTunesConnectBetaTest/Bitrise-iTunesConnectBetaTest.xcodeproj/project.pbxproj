@@ -211,18 +211,18 @@
 				TargetAttributes = {
 					BA36790C1E1466D60086405E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 72SA8V3WYL;
+						DevelopmentTeam = DT2C2FZ7U2;
 						ProvisioningStyle = Automatic;
 					};
 					BA3679281E1466D60086405E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 72SA8V3WYL;
+						DevelopmentTeam = DT2C2FZ7U2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BA36790C1E1466D60086405E;
 					};
 					BA3679331E1466D60086405E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 72SA8V3WYL;
+						DevelopmentTeam = DT2C2FZ7U2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BA36790C1E1466D60086405E;
 					};
@@ -368,11 +368,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -392,6 +392,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SAMPLE_BUNDLE_ID_BASE = "io.bitrise.samples.deliver-test";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -427,11 +428,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -444,6 +445,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				SAMPLE_BUNDLE_ID_BASE = "io.bitrise.samples.deliver-test";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -454,19 +456,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Bitrise-iTunesConnectBetaTest/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-iTunesConnectBetaTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0b08e7bd-9b8f-4192-9348-07aa4880430c";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=*]" = "";
 			};
@@ -476,19 +478,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Bitrise-iTunesConnectBetaTest/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-iTunesConnectBetaTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0b08e7bd-9b8f-4192-9348-07aa4880430c";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=*]" = "";
 			};
@@ -498,7 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Bitrise-iTunesConnectBetaTestTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,7 +508,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-iTunesConnectBetaTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-iTunesConnectBetaTest.app/Bitrise-iTunesConnectBetaTest";
 			};
@@ -516,7 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Bitrise-iTunesConnectBetaTestTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -524,7 +526,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-iTunesConnectBetaTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitrise-iTunesConnectBetaTest.app/Bitrise-iTunesConnectBetaTest";
 			};
@@ -533,7 +535,7 @@
 		BA3679441E1466D60086405E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Bitrise-iTunesConnectBetaTestUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -541,7 +543,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-iTunesConnectBetaTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "Bitrise-iTunesConnectBetaTest";
 			};
@@ -550,7 +552,7 @@
 		BA3679451E1466D60086405E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Bitrise-iTunesConnectBetaTestUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,7 +560,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.Bitrise-iTunesConnectBetaTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "Bitrise-iTunesConnectBetaTest";
 			};
